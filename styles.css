@@ -32,15 +32,9 @@ header{
 	text-transform: uppercase;
 }
 
-.menu a:hover{
-	border-bottom: 1px solid black;
-	padding-bottom: 3px;
-}
-
-
 .title{
     margin: 50px;
-	font-size: 2em;
+	font-size: 7.5vw;
 }
 
 .current{
