@@ -111,6 +111,34 @@ header{
     padding: 5px 0;
 }
 
+.plays-info{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.info{
+    margin: 20px;
+    border: 1px solid black;
+}
+
+.img-info{
+    position: relative;
+    width: 100%;
+}
+
+.info-title{
+    color: #d20046;
+    font-weight: 100;
+    padding: 10px;
+    letter-spacing: 3px
+}
+
+.info-txt{
+    padding: 10px;
+    font-size: 1em;
+}
+
 @media only screen and (min-width: 600px){
     header{
         width: 90%;
@@ -127,6 +155,23 @@ header{
     
     .current{
         flex-direction: row;
+    }
+    
+    .production-team{
+        width: 50%;
+    }
+	 
+    .plays-info{
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin: 20px auto;
+    }
+    
+    .info{
+        width: 30%;
     }
     
     .production-team{
