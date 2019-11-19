@@ -114,12 +114,16 @@ header{
 .plays-info{
     display: flex;
     flex-direction: column;
+	justify-content: center;
+	align-items: center;
     margin: 20px;
+	width: 90%;
+	border-top: 1px solid;
 }
 
 .info{
     margin: 20px;
-    border: 1px solid black;
+	width: 70%;
 }
 
 .img-info{
@@ -131,12 +135,13 @@ header{
     color: #d20046;
     font-weight: 100;
     padding: 10px;
-    letter-spacing: 3px
+    letter-spacing: 3px;
 }
 
 .info-txt{
     padding: 10px;
     font-size: 1em;
+	font-weight: 100;
 }
 
 @media only screen and (min-width: 600px){
@@ -155,26 +160,27 @@ header{
     
     .current{
         flex-direction: row;
+		align-items: flex-start;
     }
-    
-    .production-team{
-        width: 50%;
-    }
+	
+	.box{
+		width: 200px;
+	}
 	 
     .plays-info{
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: center;
-        align-items: center;
-        width: 80%;
+        align-items: flex-start;
+        width: 100%;
         margin: 20px auto;
     }
     
     .info{
-        width: 30%;
+        width: 45%;
     }
     
     .production-team{
-        width: 50%;
+        width: 90%;
     }
 }
